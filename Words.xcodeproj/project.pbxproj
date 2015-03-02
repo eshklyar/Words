@@ -14,6 +14,9 @@
 		BCF6D4301AA13907003765B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF6D42F1AA13907003765B7 /* Images.xcassets */; };
 		BCF6D4331AA13907003765B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF6D4311AA13907003765B7 /* LaunchScreen.xib */; };
 		BCF6D43F1AA13907003765B7 /* WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D43E1AA13907003765B7 /* WordsTests.m */; };
+		BCF6D44A1AA13B35003765B7 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D4491AA13B35003765B7 /* EnterNameViewController.m */; };
+		BCF6D4521AA145B7003765B7 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D4511AA145B7003765B7 /* EnterAdjectiveViewController.m */; };
+		BCF6D4551AA149F6003765B7 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF6D4541AA149F6003765B7 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		BCF6D4381AA13907003765B7 /* WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF6D43D1AA13907003765B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCF6D43E1AA13907003765B7 /* WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordsTests.m; sourceTree = "<group>"; };
+		BCF6D4481AA13B35003765B7 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnterNameViewController.h; path = ../EnterNameViewController.h; sourceTree = "<group>"; };
+		BCF6D4491AA13B35003765B7 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnterNameViewController.m; path = ../EnterNameViewController.m; sourceTree = "<group>"; };
+		BCF6D4501AA145B7003765B7 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		BCF6D4511AA145B7003765B7 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		BCF6D4531AA149F6003765B7 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		BCF6D4541AA149F6003765B7 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +90,17 @@
 		BCF6D4211AA13907003765B7 /* Words */ = {
 			isa = PBXGroup;
 			children = (
+				BCF6D4481AA13B35003765B7 /* EnterNameViewController.h */,
+				BCF6D4491AA13B35003765B7 /* EnterNameViewController.m */,
 				BCF6D4261AA13907003765B7 /* AppDelegate.h */,
 				BCF6D4271AA13907003765B7 /* AppDelegate.m */,
 				BCF6D4291AA13907003765B7 /* ViewController.h */,
 				BCF6D42A1AA13907003765B7 /* ViewController.m */,
 				BCF6D42C1AA13907003765B7 /* Main.storyboard */,
+				BCF6D4531AA149F6003765B7 /* ResultsViewController.h */,
+				BCF6D4541AA149F6003765B7 /* ResultsViewController.m */,
+				BCF6D4501AA145B7003765B7 /* EnterAdjectiveViewController.h */,
+				BCF6D4511AA145B7003765B7 /* EnterAdjectiveViewController.m */,
 				BCF6D42F1AA13907003765B7 /* Images.xcassets */,
 				BCF6D4311AA13907003765B7 /* LaunchScreen.xib */,
 				BCF6D4221AA13907003765B7 /* Supporting Files */,
@@ -221,6 +236,9 @@
 			files = (
 				BCF6D42B1AA13907003765B7 /* ViewController.m in Sources */,
 				BCF6D4281AA13907003765B7 /* AppDelegate.m in Sources */,
+				BCF6D4521AA145B7003765B7 /* EnterAdjectiveViewController.m in Sources */,
+				BCF6D4551AA149F6003765B7 /* ResultsViewController.m in Sources */,
+				BCF6D44A1AA13B35003765B7 /* EnterNameViewController.m in Sources */,
 				BCF6D4251AA13907003765B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +430,7 @@
 				BCF6D4441AA13907003765B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF6D4451AA13907003765B7 /* Build configuration list for PBXNativeTarget "WordsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				BCF6D4471AA13907003765B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
